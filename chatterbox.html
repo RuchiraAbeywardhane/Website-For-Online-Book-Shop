@@ -1,0 +1,286 @@
+<!Doctype html>
+<html>
+<head>
+	  <title>Action : Scarlet Book Shop</title>
+	  <link href="https://fonts.googleapis.com/css?family=Roboto|Oswald|Niconne|IM+Fell+Great+Primer:400i|Great+Vibes|Rouge+Script|Khula|Lato:100i|Courgette" rel="stylesheet">
+	  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.6.3/css/font-awesome.min.css">
+	  <link href="style-navigation.css" type="text/css" rel="stylesheet"/>
+	  <link href="style-header-with-logo.css" type="text/css" rel="stylesheet"/>
+	  <link href="style-slideshow.css" type="text/css" rel="stylesheet"/>
+	  <link href="style-top10.css" type="text/css" rel="stylesheet"/>
+	  <link href="style-category.css" type="text/css" rel="stylesheet"/>
+	  <link href="style-series.css" type="text/css" rel="stylesheet"/>
+	  <link href="style-footer.css" type="text/css" rel="stylesheet"/>
+	  <script src="script-navigation.js"></script>
+	  <script src="script-slideshow.js"></script>
+	  <script src="script-slideshow-auto.js"></script>
+	  <script src="script-top10.js"></script>
+	  <script src="script-category.js"></script>
+	  
+	  
+</head>
+
+<body onload="autoSlide();currentSlide(1);showDiv(1);plusCat(1);">
+     <div class="header">
+<!--Adding the header with the logo-->
+         <div class="header-part">
+    	 <img class="img-logo" src="images/logo.png" alt="logo"/>
+    	 </div>
+<!--End of the logo>
+<!--Header Rest-->
+         <div class="header-part">
+    	 <h1>Lalith<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Publications</h1>
+		 <div id="hidden-topic"><h2>LALITH PUBLICATIONS</h2></div>
+    	 </div>
+		 
+		 <div class="header-part" id="call-email">
+		 	 <a href="contact.html"> <div class="call">
+			      <div class="part"><img src="images/call.png"/ style="width:35%;"></div>
+				  <div class="part"><div class="num">Call&nbsp;Now:&nbsp;071&nbsp;8123480&nbsp;/&nbsp;081&nbsp;2354986<br><br></div>
+				  </div>
+		                  </div></a>
+						  <br>
+						  
+		    <a href="contact.html"> <div class="call">
+			      <div class="part"><img src="images/email2.png"/ style="width:35%;"></div>
+				  <div class="part"><div class="num">lalithpublications@gmail.com</div>
+				  </div>
+		                  </div></a><br>
+						  	
+			<a href="contact.html"> <div class="call">
+			      <div class="part"><img src="images/clock.png"/ style="width:35%;"></div>
+				  <div class="part"><div class="num">Open from 8am to 10pm</div>
+				  </div>
+		                  </div></a>		  
+			  	  
+		 </div> 
+		 
+		 
+	</div>  
+<!--Header End-->
+<!--Adding navigation bar-->
+    <div class="topnav" id="myTopnav">
+    	 <a id="home" href="index.html"><i class="fa fa-home"></i></a>
+    	 <div class="dropdown">
+		 	  <a class="dropbtn"href="#">Catogery</a>
+    		  	 	<div class="dropdown-content">
+    						<a href="chatterbox.html">Chatter Box</a>
+							<a href="abctoenglish.html">ABC To English</a>
+							<a href="wordtreasure.html">Word Treasure</a>
+									  
+    			    </div>
+	     </div>
+    	 <a href="order2.html">How to Order</a>
+    	 <a href="delivery.html">Delivery</a>
+		 <a href="about.html">About Us</a>
+		 <a href="contact.html">Contact Us</a>
+		 <a class="icon" onclick="openNav()">&#9776;</a>
+    </div>	
+<!--End of the navigation bar-->  
+
+<!--Creating a SlideShoe-->
+   <div class="mySlideshow">
+   		<div class="slide-container">
+		     
+			  <div class="mySlides fade">
+			 	  <img src="images/slideshow/last-slide.jpg" style="width:100%"/>
+			 </div>
+
+		
+			 <div class="mySlides fade">
+			 	  <img src="images/slideshow/abc-slide.jpg" style="width:100%"/>
+			 </div>
+			 
+			  <div class="mySlides fade">
+			 	  <img src="images/slideshow/chatter-slide.jpg" style="width:100%"/>
+			 </div>
+
+			 
+			  <div class="mySlides fade">
+			 	  <img src="images/slideshow/word-slide.jpg" style="width:100%"/>
+			 </div>
+			 
+
+			 
+			
+			 
+			 <a class="prev" onClick="plusSlide(-1)">&#10094;</a>
+			 <a class="next" onClick="plusSlide(1)">&#10095;</a>
+   	  </div>
+	  
+	  <center>
+	  <div>
+	  <span class="dots" onClick="currentSlide(1)"></span>
+	  <span class="dots" onClick="currentSlide(2)"></span>
+	  <span class="dots" onClick="currentSlide(3)"></span>
+	  <span class="dots" onClick="currentSlide(4)"></span>	  
+	  </div>
+	  </center>
+ </div>
+<!--End of the SlideShow-->
+
+
+<!--Creating the top categories segment-->
+<h1 class="top-topic">Category&nbsp;:&nbsp;CHATTER BOX</h1><center><hr class="line"></center>
+
+<!--Creating the ChatterBox Category--> 
+ <div class="sections">
+ 	  <div class="cat-row">
+	  <center>
+	  	   <div class="cat-column"><center>
+		   		<img src="images/cb/cb-01.jpg" alt="Chatter Box Part 01" class="image" style="width:100%;"/>
+				
+				<div class="overlay">
+				<p class="title">ChatterBox&nbsp;Part 01</p><br>
+				<a class="content">Rs.350.00</a><br><br>
+				<p class="rest">Spoken English<br>Description: Available</p>
+				</div>
+				
+                <a href="chat-order.html" class="buy">Buy&nbsp;Now</a></center>
+		   </div>
+		   
+		   <div class="cat-column"><center>
+		   		<img src="images/cb/cb-02.jpg" alt="Chatter Box Part 02" class="image" style="width:100%;"/>
+				<div class="overlay">
+				<p class="title">ChatterBox&nbsp;Part 02</p><br>
+				<a class="content">Rs.350.00</a><br><br>
+				<p class="rest">Spoken English<br>Description: Available</p>
+				</div>
+				
+                <a href="chat-order.html" class="buy">Buy&nbsp;Now</a></center>
+		   </div>
+		   
+		   <div class="cat-column"><center>
+		   		<img src="images/cb/cb-03.jpg" alt="Chatter Box Part 03" class="image" style="width:100%;"/>
+				<div class="overlay">
+				<p class="title">ChatterBox&nbsp;Part 03</p><br>
+				<a class="content">Rs.350.00</a><br><br>
+				<p class="rest">Spoken English<br>Description: Available</p>
+				</div>
+				
+                <a href="chat-order.html" class="buy">Buy&nbsp;Now</a></center>
+		   </div>
+		   
+		   <div class="cat-column"><center>
+		   		<img src="images/cb/cb-04.jpg" alt="Chatter Box Part 04" class="image" style="width:100%;"/>
+				<div class="overlay">
+				<p class="title">ChatterBox&nbsp;Part 04</p><br>
+				<a class="content">Rs.350.00</a><br><br>
+				<p class="rest">Spoken English<br>Description: Available</p>
+				</div>
+				
+                <a href="chat-order.html" class="buy">Buy&nbsp;Now</a></center>
+		   </div>
+		   
+		   <div class="cat-column"><center>
+		   		<img src="images/cb/cb-05.jpg" alt="Chatter Box Part 05" class="image" style="width:100%;"/>
+				<div class="overlay">
+				<p class="title">ChatterBox&nbsp;Part 05</p><br>
+				<a class="content">Rs.350.00</a><br><br>
+				<p class="rest">Spoken English<br>Description: Available</p>
+				</div>
+				
+                <a href="chat-order.html" class="buy">Buy&nbsp;Now</a></center>
+		   </div>
+		   
+		   <div class="cat-column"><center>
+		   		<img src="images/cb/cb-06.jpg" alt="Chatter Box Part 06" class="image" style="width:100%;"/>
+				<div class="overlay">
+				<p class="title">ChatterBox&nbsp;Part 06</p><br>
+				<a class="content">Rs.350.00</a><br><br>
+				<p class="rest">Spoken English<br>Description: Available</p>
+				</div>
+				
+                <a href="chat-order.html" class="buy">Buy&nbsp;Now</a></center>
+		   </div>
+		   
+		   <div class="cat-column"><center>
+		   		<img src="images/cb/cb-07.jpg" alt="Chatter Box Part 07" class="image" style="width:100%;"/>
+				<div class="overlay">
+				<p class="title">ChatterBox&nbsp;Part 07</p><br>
+				<a class="content">Rs.350.00</a><br><br>
+				<p class="rest">Spoken English<br>Description: Not Available</p>
+				</div>
+				
+                <a href="chat-order.html" class="buy">Buy&nbsp;Now</a></center>
+		   </div>
+		   
+		    <div class="cat-column"><center>
+		   		<img src="images/cbb/cbb-01.jpg" alt="Chatter Box Buddy Part 01" class="image" style="width:100%;"/>
+				<div class="overlay">
+				<p class="title">ChatterBox Buddy&nbsp;Part 01</p><br>
+				<a class="content">Rs.350.00</a><br><br>
+				<p class="rest">Spoken English<br>Description: Available</p>
+				</div>
+				
+                <a href="chat-order.html" class="buy">Buy&nbsp;Now</a></center>
+		   </div>
+		   
+		    <div class="cat-column"><center>
+		   		<img src="images/cbb/cbb-02.jpg" alt="Chatter Box Buddy Part 02" class="image" style="width:100%;"/>
+				<div class="overlay">
+				<p class="title">ChatterBox Buddy&nbsp;Part 02</p><br>
+				<a class="content">Rs.350.00</a><br><br>
+				<p class="rest">Spoken English<br>Description:Available</p>
+				</div>
+				
+                <a href="chat-order.html" class="buy">Buy&nbsp;Now</a></center>
+		   </div>
+		   
+		  	  
+		 </center>
+	  </div>
+	   
+ </div>
+ <!--End of the ChatterBox catogery-->
+ 
+<!--Creating the end of the page-->
+<footer class="end">
+    <div class="footer-mainrow">
+		<div class="footer-row">
+			 <div class="footer-column">
+			 	  <h1>Lalith&nbsp;Publications</h1>
+				        <a class="footer-list" href="order2.html">How to Order</a>
+						
+						<a class="footer-list" href="contact.html">Contact Us</a>
+			 </div>
+			 
+			 <div class="footer-column">
+			 <h1>Customer Care</h1>
+				        <a href="delivery.html">Delivery</a>
+						
+			 </div>
+		</div>
+		
+		<div class="footer-row">
+			 <div class="footer-content">
+			 	<h1>Lalith Publications</h1>
+				
+				 <a id="fir" class="fa fa-map-marker" aria-hidden="true">&nbsp;&nbsp;&nbsp;No;1/8; Kobbewala Road; Gampola</a><br>
+				 <a id="fir" class="fa fa-phone" aria-hidden="true">&nbsp;&nbsp;&nbsp;071-8123480/ 0812354986</a><br>
+	        	 <a id="fir" class="fa fa-envelope" aria-hidden="true">&nbsp;&nbsp;&nbsp;lalithpublications@gmail.com</a><br>
+				 <a id="fir" class="fa fa-clock-o" aria-hidden="true">&nbsp;&nbsp;&nbsp;Open from 8.00am to 10.00pm</a><br>
+				 
+				 	 <p>Follow us on......</p>	
+							<a id="sec" href="https://www.facebook.com/Scarlet-Books-296465104099320/" class="fa fa-facebook"></a>
+							<a id="sec" href="#" class="fa fa-twitter"></a>
+							<a id="sec" href="#" class="fa fa-instagram"></a>
+							<br>
+							<br>
+									 
+			 </div>
+		</div>
+   </div>
+   
+     <div class="footer-rest">
+     <br>
+     		<h2>&nbsp;&nbsp;&nbsp;Payments Options Available</h2>	
+  		<a href="order.html">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Bank&nbsp;Deposit&nbsp;</a>
+		<br>
+     </div>
+<div class="copy">
+Copyright @ scarletbooks v1.0 | 2017
+<div>		
+
+</footer>
+<!--End of the footer-->		

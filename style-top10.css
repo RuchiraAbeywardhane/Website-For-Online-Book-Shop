@@ -1,0 +1,134 @@
+/*Creating columns for books*/
+.column{    
+       
+       display:inline-block;
+       width:30%;
+       position:relative; 
+       margin:20px;
+       box-sizing:border-box;}
+
+/*Styling the each book holder*/       
+.card{
+      margin:5px 10px 5px 10px;
+      background-color:#fff;
+      box-sizing:border-box;
+      box-shadow:5px 5px 5px 5px #DDD8D8;
+       }
+    
+ /*Styling the colums inside each book holder*/   
+ .column2{
+          display:inline-block; 
+          width:49%;;
+          box-sizing:border-box;}  
+ 
+
+ /*Styling the book cover image in the book holder*/          
+.column img{
+      width:90%; }
+
+ /*Styling the price tag*/    
+.price{      
+      font-family:Khula,Roboto,Sans-Serif;
+      font-size:16px;
+      font-weight:bold;    
+      }
+ 
+/*Styling the description*/ 
+.des{ 
+      font-size:16px; 
+      opacity:0.85;       
+      font-family:Khula,Roboto,Sans-Serif;
+      font-weight:bold;         
+      }   
+ 
+ /*Styling the top selling books topic*/       
+.top-topic{
+      padding:0px;
+      background-color:1CC2D3;
+      font-family:IM Fell Great Primer,Roboto,Sans-Serif;
+      width:100%;
+      text-align:center; }
+      
+/*Styling the hr*/
+.line{
+      max-width:1000px;
+      background-color:#1CC2D3;
+      padding:5px;
+      margin:-20px 0px 30px 0;
+      border:none; }
+ 
+ /*Styling the buynow and view buttons*/     
+.buy{
+     padding:10px;
+     color:#fff;
+     text-decoration:none;
+     float:Right;
+     margin:5px;
+     font-weight:bold;
+     cursor:pointer;
+     background-color:#078507;
+    }
+.view{
+      padding:10px;
+     color:#fff;
+     text-decoration:none;
+     float:Right;
+     margin:5px;
+     font-weight:bold;
+     cursor:pointer;
+     background-color:#A30A2B;
+ }
+ 
+     
+.previous, .nextbut{
+     position:absolute; 
+     padding:16px 10px;
+     color:#fff;
+     top:54%;
+     cursor:pointer;
+     font-weight:bold;
+     background-color:#A6B990;
+     }
+     
+     
+.previous{
+     left:0px;}
+
+.nextbut{
+    right:0px; }
+    
+.previous:hover, .nextbut:hover{
+    background-color:#8B997B; }
+
+
+/*Styling topten book holder*/
+.topten{
+    position:relative; }
+    
+/*Styling each topten division holders*/    
+.row{
+     margin:auto;
+     width:100%;
+     position:relative;
+     } 
+     
+.fade2{
+     animation-name:fade2;
+     animation-duration:1s;    
+      }
+      
+     
+/*Creating animations*/     
+@keyframes fade2{
+from{Right:-1000px}
+to{Right:0px;} } 
+
+    
+/*making the page responsive to various screen sizes*/
+@media screen and (max-width:1000px){
+     .column{width:40%;} 
+     .card{font-size:13px; }}
+
+@media screen and (max-width:650px){
+     .column{width:100%;margin:5px 20px 5px 0px; }   }
+     

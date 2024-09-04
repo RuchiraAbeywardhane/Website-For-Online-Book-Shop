@@ -1,0 +1,19 @@
+.series-column{
+         width:20%;
+         display:inline-block;
+         margin:20px; }
+         
+.details{
+         text-align:center; 
+         margin:auto;
+         width:75%;
+         font-family:Niconne,IM Fell Great Primer,Roboto,Sans-Serif;
+         font-size:35px;
+         opacity:8;
+         background-image:url('images/burn2.png');
+         background-repeat:no-repeat;
+         background-size:cover;
+         background-position:center; }
+         
+ @media screen and (max-width:600px){
+        .details{font-size:25px; } }

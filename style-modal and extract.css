@@ -1,0 +1,121 @@
+/*styling the position of modal boxes*/
+.column{
+box-sizing:border-box; 
+width:24%;
+display:inline-block;
+padding:10px 10px;}
+
+/*making bodal boxes responsive*/
+@media(max-width:650px){
+      .column{display:block; width:100%;} }
+
+.row{
+float:clear;
+text-align:center; 
+box-sizing:border-box;  }
+
+/*styling the text below every image*/
+.container{
+box-sizing:border-box; 
+padding:5px 25px 35px 25px;;
+}
+
+.container::after, .row::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+
+/*styling the Order Now button*/
+a.button{
+width:100%;
+padding:10px 20px;
+margin:auto; 
+background-color:#333;
+color:#FFF;
+letter-spacing:0;
+font-family:Roboto,Oswald,sans-serif;
+text-decoration:none;
+border-radius:5px 5px 5px 5px;}
+
+a.button:hover{
+background-color:#344; }
+
+/*styling the modal content*/
+.card{
+animation-name:come;
+animation-duration:1s;
+-webkit-animation-name:come;
+-webkit-animation-duration:1s;
+box-shadow:0px 8px 4px 2px #333; }
+
+.container h3{
+opacity:0.7;
+color:#333;
+text-align:center;
+}
+
+.container h2{
+font-family:Roboto,Oswald,sans-serif;
+font-size:22px;
+opacity:0.88;
+text-align:center; }
+
+/*styling the topcis CB ABC*/
+.topic-class{
+position:relative;
+opacity:0.9;
+width:100%;
+text-align:center; 
+background-color:#333;
+color:#fff;
+letter-spacing:0.5px;
+padding:0;
+cursor:pointer;
+transition:background-color 0.5s ease;}
+
+.topic-class:hover{
+background-color:#354; }
+ 
+.topic-class h1{
+padding:15px; }
+
+@media(max-width:650px){
+       .topic-class h1{font-size:26px; } }
+
+.topic-class .arrow{
+position:absolute;
+top:25%;
+left:20px;
+font-size:30px;
+font-weight:bold;}
+
+.topic-class .arrow-two{
+position:absolute;
+top:25%;
+right:20px;
+font-size:30px;
+font-weight:bold;}
+
+/*class for extract function*/
+.extract-one{
+text-align:center;
+display:none;}
+
+.extract-two{
+text-align:center;
+display:none;}
+
+.extract-three{
+text-align:center;
+display:none;}
+
+
+/*Creating animations*/
+@keyframes come{
+from{opacity:0; }
+to{opacity:1; } }
+
+-webkit-@keyframes come{
+from{opacity:0; }
+to{opacity:1; } }

@@ -1,0 +1,100 @@
+body{
+     margin:0px; }
+
+/*Styling the logo*/
+.img-logo{
+          width:60%;
+          margin:10px 0px 0px 10px;
+          border-radius:10%;
+               }
+               
+/*Styling the topic*/
+.header-part h1{
+          font-family:Times,Niconne,IM Fell Great Primer,Roboto,Sans-Serif;
+          font-size:64px;
+          margin:-50px -35px;
+          color:#652D2D; }
+          
+#hidden-topic{
+         position:absolute;
+         top:60px;
+         display:none;
+         font-family:Niconne,IM Fell Great Primer,Roboto,Sans-Serif;
+          font-size:20px;
+          color:#652D2D;
+          margin:-50px -35px; }
+/*Styling the header*/
+.header{
+        position:relative;
+        width:100%;
+        padding:0 0 10px 0;
+        background: -webkit-linear-gradient(Top, #ECE1E1, #ABA9A9);}
+        
+/*editing columns in header*/                 
+.header-part{
+       
+       box-sizing:border-box;
+       display:inline-block; }
+
+/*Designning Call now part*/          
+.call{
+      float:right;
+      
+      
+      }
+      
+.part{
+      box-sizing:border-box;
+      position:relative;
+       }
+
+.num{
+     box-sizing:border-box;
+     color:#333;
+     font-family:Roboto,Oswald,Sans-Serif;
+     font-size:15px;
+     position:absolute;
+     left:80px; 
+     top:-35px;
+    }
+     
+/*Designing email part*/    
+
+      
+.email{
+      position:absolute;
+      float:right; 
+      position:absolute;
+    
+      }  
+      
+#call-email{
+      margin:0px 100px 0px 0px;
+      float:Right; }  
+      
+ 
+ 
+/*Making the web page responsive for screen sizes*/      
+@media screen and (max-width:1050px){
+       .header-part h1{font-size:50px; }
+       } 
+       
+@media screen and (max-width:950px){ 
+       .call{display:none; }
+       .email{display:none; }}
+       
+@media screen and (max-width:400px){
+       .header-part h1{display:none;}
+       #hidden-topic{display:block;}
+      
+       } 
+@media screen and (max-width:350px){
+       #hidden-topic{top:25px;left:190px;}
+             } 
+       
+@media screen and (max-width:600px){
+       .header-part h1{font-size:35px;left:190px;position:absolute;top:80px;}       
+       } 
+
+       
+

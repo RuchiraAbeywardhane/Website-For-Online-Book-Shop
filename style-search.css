@@ -1,0 +1,104 @@
+/*books list holder*/
+.list-holder{
+        width:100%;
+        margin:20px;
+       
+        }
+/*Styling the input text box*/
+#myInput{
+        width:85%;
+        box-shadow:2px 0px 2px 0px #333;
+        padding:20px;
+        margin:20px;
+        font-family:Roboto,Oswald,Sans-Serif;
+        font-size:20px;
+        opacity:1;
+       }
+       
+/*Styling the search icon*/       
+#search-icon{
+        font-size:25px; 
+        background-color:#07AF74;
+        padding:20px 40px;
+        margin:0px 0px 20px 100px;
+        cursor:pointer;
+        color:#fff;}
+        
+#search-icon:hover{
+        background-color:#CB1810; }
+
+/*Styling the sub book holder(unordered list)*/        
+#mySearch{
+       animation-name:fade4;
+       animation-duration:2s;   
+       display:none;
+       background-color:#A2FDF6;
+       box-shadow:2px 2px 2px 2px #333;
+       width:85%;
+       margin:auto;               
+}
+
+/*Styling each book holder(lists)*/
+.list-holder li{
+
+       border:solid 0.5px #fff;
+       cursor:default;
+       list-style-type:none;
+       padding:auto;
+       width:95%;
+       margin:auto;
+        }
+ 
+.list-holder li:hover{
+        background-color:#6F8AD2;}
+        
+ 
+/*Styling the images of books in the list*/        
+.item-holder img{
+       margin:5px;
+       width:20%; }
+
+/*Styling each book holder*/ 
+.item-holder{
+      position:relative;
+      width:100%; }      
+
+/*Dividing a one row to two columns*/
+.part2{
+      display:inline-block;
+      width:30%; 
+      }
+      
+/*Styling book topics in the list*/      
+.part2 a{
+     position:absolute;
+     top:40%;
+     left:15%;
+     font-size:40px;
+     text-decoration:none;
+     font-family:Niconne,IM Fell Great Primer,Roboto,Sans-Serif;
+      }
+ 
+
+/*no more results were found*/
+.text{
+    color:#333;
+    opacity:0.7;
+    font-size:30px;
+    font-family:IM Fell Great Primer,Roboto,Sans-Serif;  } 
+
+
+/*Creating animations*/     
+@keyframes fade4{
+from{opacity:0.7; }
+to{opacity:1; } }
+
+@media screen and (max-width:1000px){
+       .part2 a{font-size:25px;left:15%;top:20%;} }
+       
+@media screen and (max-width:600px){
+       .part2 {width:100%;} 
+       .part2 a{position:relative; text-align:center;font-size:25px;margin:auto;width:100%;}
+       .part2 img{width:75%; }}
+      
+

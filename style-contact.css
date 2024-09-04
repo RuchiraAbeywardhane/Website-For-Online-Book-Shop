@@ -1,0 +1,29 @@
+/*Information holders*/
+.pack{
+      font-size:30px;
+      padding:0px 50px;
+      box-shadow:2px 2px 2px 2px #9B9FB0;
+      padding:10px;
+      width:75%;
+      margin:15px auto;
+      background-image:url('images/contact-back.jpg');
+      background-position:center;
+      background-repeat:no-repeat;
+      background-size:cover;
+      
+       }
+       
+.contact-title{
+      text-decoration:underline;
+      font-family:IM Fell Great Primer,Roboto,Sans-Serif; 
+      color:#00060C;
+      }
+ 
+ /*details*/     
+.pack p{
+      padding:0px 50px;
+      font-family:Niconne,IM Fell Great Primer,Roboto,Sans-Serif;
+      color:#03034F; }
+      
+@media screen and (max-width:600px){
+       #em{font-size:24px; }}

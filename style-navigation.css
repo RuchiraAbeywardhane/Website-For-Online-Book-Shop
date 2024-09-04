@@ -1,0 +1,83 @@
+/*Styling the navigation tabs*/
+.topnav a,.dropdown{
+        display:inline-block;
+        text-decoration:none;
+        font-size:17px;
+        background-color:#0F92C0;
+        color:#fff;
+        padding:16px;
+        margin:-2px;
+        font-family:Roboto,Oswald,Sans-Serif;
+        position:relative;
+        transition:background-color 0.5s ease; }
+
+        /*Styling the navigation line*/
+.topnav{
+        display:inline-block;           
+        width:100%;
+        margin:0px 0px;
+        background-color:#0F92C0;
+        padding:2px 0px;
+        height:100%; }
+
+/*Styling navigation reactions*/        
+.topnav a:hover{
+        background-color:red; }
+/*Styling home tab*/        
+.topnav #home{
+        background-color:#07AF32; }
+#home:hover{
+        background-color:red; }
+
+/*Styling navigation extract icon*/        
+.topnav .icon{
+        display:none;
+        cursor:pointer;
+        margin:-16px 0px;
+        padding:15px 15px;
+        float:right; 
+                 }
+                 
+/*Designing a drop down*/
+.dropdown{
+        height:auto;
+        padding:0px;
+        position:relative; 
+        margin:-8px 0px;
+        }
+        
+.dropdown-content{
+       display:none;
+       position:absolute;
+       top:108%;
+       box-sizing:border-box; 
+       width:160px;
+       z-index:1;
+       }
+       
+.dropdown-content a{
+       cursor:pointer;
+       opacity:1;
+       background-color:#09ADF9;
+       width:160px;
+       box-sizing:border-box; 
+       z-index:1; } 
+                 
+.dropdown:hover .dropdown-content{
+       display:block; }
+       
+.dropdown:hover .dropbtn{
+       background-color:red; }
+                 
+/*making the navigation responsive*/                
+@media screen and (max-width:600px){
+      .topnav a:not(:first-child), .topnav .dropdown{display:none;}
+      .topnav a.icon{display:block;margin:-1px 1px;padding:14.3px;}
+      .topnav.responsive{position:relative;display:block;padding:0;}
+      .topnav.responsive a, .topnav.responsive .dropdown{display:block;float:none;}
+      .topnav.responsive .icon{position:absolute; top:16px;right:0;padding:11px;margin:-16px -2px;}
+      .topnav.responsive .dropdown .dropdown-content{top:88%; }
+     
+       }
+       
+      

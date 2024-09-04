@@ -1,0 +1,49 @@
+.slide-container{
+         max-width:1600px;        
+         margin:auto;
+         position:relative;}
+         
+.next , .prev{
+         cursor:pointer;
+         position:absolute; 
+         top:42%;
+         padding:16px;
+         margin:auto;
+         border-radius:0px 3px 3px 0;
+         color:white;
+         font-weight:bold;  
+         transition:background-color 1s ease;        
+        }
+
+.next:hover , .prev:hover{
+        background-color:#333; }         
+.next{
+      position:absolute;
+      right:0px;
+       }
+       
+       
+.dots{
+      background-color:#B8B8B8;
+      height:10px;
+      width:10px;
+      padding:2px;
+      display:inline-block;
+      border-radius:10px;
+      margin:5px;
+      cursor:pointer;
+      transition:background-color 0.5s ease;
+       }
+       
+.dots:hover ,.active{
+      background-color:#9A9999; }
+
+      
+.fade{
+      animation-name:fade;
+      animation-duration:2.5s; }
+  
+      
+@keyframes fade{
+from{opacity:0.7}
+to{opacity:1} }

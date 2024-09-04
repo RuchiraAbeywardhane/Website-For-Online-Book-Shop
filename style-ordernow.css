@@ -1,0 +1,145 @@
+/*positioning three columns of the page*/
+.parts{
+margin:auto;
+display:inline-block;
+width:29%;
+padding:0 60px 0 0 ;
+       }
+/*price = 350*/       
+.price-tag{
+background-color:#0A8290;
+color:#fff;
+padding:6px;
+letter-spacing:1px;
+border-radius:8px;
+font-family:Roboto,Oswald,sans-serif;
+font-size:13px;
+opacity:0.75; }
+ 
+                         }
+/*find upt postage price topic*/
+.postage{
+opacity:0.9;
+font-size:22px;
+text-decoration:underline;
+font-family:Roboto,Oswald,Sans-serif; }
+
+/*find out postage price content*/
+.postage-detail{
+padding:16px;
+background-color:#D7EBEE;
+border-radius:8px;
+box-shadow:2px 2px 2px 2px #333; }
+
+/*total postage div*/
+.post{
+display:inline; 
+font-size:13px;
+font-family:Roboto,Oswald,Sans-serif;}
+
+/*quantoty and */
+.label{
+font-size:20px;
+color:Black;
+font-family:Roboto,Oswald,Sans-serif;
+ }
+ 
+input{
+background-color:white;
+padding:5px;
+border-radius:5px;
+font-family:Roboto,Oswald,Sans-serif;
+font-size:15px;
+ }
+
+select{
+background-color:white;
+padding:5px;
+border-radius:5px;
+font-family:Roboto,Oswald,Sans-serif;
+font-size:15px;
+ }
+
+/*total price div*/
+.price{
+background-color:#0A8290;
+color:#fff;
+padding:6px;
+letter-spacing:1px;
+border-radius:8px;
+font-family:Roboto,Oswald,sans-serif;
+font-size:13px;
+opacity:0.75;
+ }
+ 
+ /*total price and total postage inlinenig*/
+ .price h2{
+ display:inline-block; }
+ .post h2{
+ display:inline-block;}
+ 
+ /*styling the calculate clear buttons*/
+.btn1 ,.btn2{
+cursor:pointer;
+text-decoration:none;
+border:none;
+font-size:18px;
+letter-spacing:1.5px;
+color:white;
+bax-shadow:1px 1px 1px 2px #333;
+padding:10px 20px;
+margin:0px 10px;
+font-family:Roboto,Oswald,Sans-serif;
+font-weight:100;
+background-color:#4CAF50;}
+
+.btn2{
+background-color:#3946CB; }
+
+/*styling the description of the items*/
+.details h2{
+opacity:0.8;
+color:#333;
+font-family:Roboto,Oswald,Sans-serif; }
+
+.details p{
+opacity:0.9;
+color:#03112F; 
+font-size:18px;
+font-family:Roboto,Oswald,Sans-serif; }
+
+.icon{
+font-size:18px; }
+
+/*styling the order now button*/
+.order-btn{
+padding:16px;
+background-color:#F61F05;
+border:none;
+text-decoration:none;
+color:#fff;
+font-family:Roboto,Oswald,sans-serif;   
+font-size:20px;
+text-align:center;
+width:100%;
+cursor:pointer;
+transition:background-color 0.5s ease;
+}
+
+.order-btn:hover{
+background-color:#0A7905;}
+
+
+/*making three columns responsive*/
+@media(max-width:1500px){
+      .parts{width:100%;
+      margin:auto; }
+      
+@media(max-width:1500px){
+              .parts h2,p{font-size:17px;}
+              h1{font-size:25px; }
+              .parts{width:100%;} }
+              
+
+
+

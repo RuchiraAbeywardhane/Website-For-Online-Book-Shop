@@ -1,0 +1,19 @@
+/*about us all delivery*/
+.delivery{
+          box-shadow:4px 4px 4px 6px #CCCACF;
+          margin:auto; 
+          width:80%;
+          padding:20px;}
+ 
+ /*delivery topic*/         
+.delivery h2{
+         font-family:Niconne,IM Fell Great Primer,Roboto,Sans-Serif;
+         font-size:40px;
+         padding:0px;
+         margin:5px;
+          }
+/*delivery detils*/          
+.delivery p{
+         font-family:IM Fell Great Primer,Roboto,Sans-Serif;
+         font-size:25px;
+         line-height:50px; }

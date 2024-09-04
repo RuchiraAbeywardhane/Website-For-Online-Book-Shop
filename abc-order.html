@@ -1,0 +1,167 @@
+<!DOCTYPE html>
+<html>
+<head>
+	  <title>ABC To English</title>
+	  <link href="style-ordernow-lightbox.css" type="text/css" rel="stylesheet"/>
+	  
+	  <link href="style-ordernow.css" type="text/css" rel="stylesheet"/>
+	  <link href="style-how-to-sub.css" type="text/css" rel="stylesheet"/>
+	  <link href="https://fonts.googleapis.com/css?family=Roboto|Oswald" rel="stylesheet">
+	  <script src="myscript-light-box.js"></script>
+	  <script src="myscript-postage-abc-total.js"></script>
+</head>
+
+<body onload="showSlides(1)" id="body01">
+<!--Creating a previous a button-->
+<br>
+<div><a  class="prev-button" href="Index.html">&#10094;</a>
+</div>
+<br>
+<!--End of the previous button-->
+<div class="sub-topic">
+	 <h1>ABC To English Collection</h1><hr>
+	 </div>
+<!--Creating a photo light box-->
+<div class="parts">
+	 <div class="photo-container">
+    	 <div class="myphoto fade">
+    	 <img src="images/new/abc01.jpg" style="width:100%;"/>
+    	 </div>
+		 
+		 <div class="myphoto fade">
+    	 <img src="images/new/abc02.jpg" style="width:100%;"/>
+    	 </div>
+		 
+		 <div class="myphoto fade;">
+    	 <img src="images/new/abc03.jpg" style="width:100%;"/>
+    	 </div>
+		 
+		 <a class="prev-photo" onclick="plusSlides(-1)">&#10094;</a>
+		 <a class="next-photo" onclick="plusSlides(1)">&#10095;</a>
+				 
+    </div>
+		  <div class="row">
+		  	    <div class="column">
+			   		<div class="pic one">
+					<img src="images/new/abc01.jpg" onclick="currentSlide(1)" style="width:100%;"/>
+					</div>
+			  </div>
+			  
+			  <div class="column">
+			   		<div class="pic one">
+					<img src="images/new/abc02.jpg" onclick="currentSlide(2)" style="width:100%;"/>
+					</div>
+			  </div>
+			  
+			  <div class="column">
+			   		<div class="pic one">
+					<img src="images/new/abc03.jpg" onclick="currentSlide(3)" style="width:100%;"/>
+					</div>
+			  </div>
+	     </div>
+</div>
+
+	  <div class="parts">
+    	 
+		  <ul type="square" class="price-tag">
+    	  	  <li><h2>&nbsp;&nbsp;&nbsp;Price(without postage):- Rs.350.00</h2></li>
+          </ul>
+    	   
+		   <h2 class="postage">Find out the postage price for your location</h2>
+    	  
+		  <div  class="postage-detail">
+            		  
+            		<div>
+            			 <label class="label">Quantity: </label>
+				    <br>
+					<br>
+            			 <input type="number" min="1" step="1" id="quantity01"/ required="flag">
+            		</div>
+					<div>
+					<br>
+            			 <label class="label" id="product01">Product: </label>
+				    <br>
+					<br>
+            			 <select id="No">
+						 		 <option class="select" value="01">ABC To English Part 01</option>
+								 <option class="select" value="02">ABC To English Part 02</option>
+								 <option class="select" value="03">ABC To English Part 03</option>
+								 <option class="select" value="04">ABC To English Part 04</option>
+								 <option class="select" value="05">ABC To English Part 05</option>
+								 <option class="select" value="06">ABC To English Part 06</option>
+								 <option class="select" value="07">ABC To English Part 07</option>
+								 <option class="select" value="08">ABC To English 5 in 1</option>
+						 </select>
+            		</div>
+					
+					
+            		
+					<br>
+            		<button class="btn1" onclick="getPostage()">Calculate the Price</button>
+					<button class="btn2" onclick="clearField()">Clear</button>
+            		<br>
+					<br>
+            		<div class="post"><h2>Total Postage:&nbsp;Rs.</h2><h2 id="total-postage"></h2></div>
+            		
+		</div>
+		
+		
+		<br>
+		<br>
+		
+		<div class="price"><h2>Total Price:&nbsp;Rs.</h2><h2 id="total-price"></h2></div>
+		
+					
+   </div>
+   
+   <div class="parts">
+   		<div class="details">
+			 <h2>Shipping:&nbsp;</h2><p><i class="icon">&ofcir;&nbsp;</i>Local(Only Sri Lanka):Registered Mail</p>	
+			 <h2>Delivery:&nbsp;</h2><p><i class="icon">&ofcir;&nbsp;</i>Withing two weeks after completing the transaction successfully you will receive the product
+			 <br><br><i class="icon">&ofcir;&nbsp;</i>We will  ship your product withing 48hours after receiving clear payment</p>	
+		     <h2>Returns:&nbsp;</h2><p><i class="icon">&ofcir;&nbsp;</i>Non-refundable</p>	
+	   </div>
+	   <div style="text-align:center;">
+	   
+	   <br>
+	      		<a href="https://wwwabeywardhaneruchira.000webhostapp.com/"><button  class="order-btn"> ORDER NOW</button><a>	
+											
+	   </div>  
+      
+	   
+  </div>   
+     
+
+<div class="emty" >
+
+   		<h5>error</h5> 
+</div>
+
+<br>
+
+<br>
+<br>
+<div class="download-topic">
+	 <h1 class="">How to successfully purchase our products </h1>
+</div>
+<div class="how">
+ <ul type="square">
+		   	   <li>First you have to fill out the forum which opens when you press the order now button</l1>
+			   <li>After you submit it we will reply to your email withing 24 hours with details about transaction and delivery and <br>
+			   we will send a message to your mobile number confirming the order</li>
+			   <li>And then you must make the money transaction via any online Banking system ,paypal
+			   <br> or just transfer it to the account
+			   		   xxxxxxxxxxxx.</li>
+			   <li>withing 48 hours after you make the transaction we will post the package to your
+			   <br>shipping details according to your form details.</li>
+		  </ul>
+</div>
+
+<footer>
+		
+</footer>
+  	 
+	   
+	   
+</body>
+</html>

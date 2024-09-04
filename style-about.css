@@ -1,0 +1,31 @@
+/*about us all delivery*/
+.about-title{
+              font-size:35px;
+              font-family:Niconne,IM Fell Great Primer,Roboto,Sans-Serif;
+              color:#311864;
+              padding:5px 30px; }
+
+/*about us topic*/               
+.about p{
+              font-family:IM Fell Great Primer,Roboto,Sans-Serif;
+              font-size:25px;
+              color:#333;
+              padding:10px 30px; }
+/*about us detils*/               
+.about{
+              width:90%;
+              margin:auto; 
+              box-shadow:6px 6px 4px 8px #CCCACF;}
+.about-img{
+              position:relative; 
+              width:80%;
+              padding:60px 60px 25px 60px;
+              left:4%;
+              margin:auto; }
+              
+.about li{      font-family:IM Fell Great Primer,Roboto,Sans-Serif;
+              font-size:28px;
+              color:#220;
+              padding:10px 30px;
+              list-style:none;
+               }
